@@ -13,17 +13,4 @@
 		WrongParameters,
 		NotFound,
 	}
-
-	public struct NetworkSuccess
-	{
-		public NetworkSuccessTag Tag;
-		public string Message;
-	}
-
-	public enum NetworkSuccessTag
-	{
-		Undefined,
-		NewPlayer,
-		FoundCredentials,
-	}
 }
