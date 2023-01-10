@@ -1,6 +1,6 @@
 ﻿namespace Kalkatos.Network.Model
 {
-	public class PlayerInfo
+	public struct PlayerInfo
 	{
 		public string PlayerId;
 		public string Nickname;
