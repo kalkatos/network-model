@@ -5,6 +5,7 @@ namespace FunctionsGame.NetworkModel
 	public class PlayerRegistry
 	{
 		public string PlayerId;
+		public string Region;
 		public bool IsAuthenticated;
 		public string[] Devices;
 		public DateTime LastAccess;
