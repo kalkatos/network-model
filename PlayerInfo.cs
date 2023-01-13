@@ -2,7 +2,7 @@
 {
 	public struct PlayerInfo
 	{
-		public string PlayerId;
+		public string Alias;
 		public string Nickname;
 		public string[] CustomData;
 	}

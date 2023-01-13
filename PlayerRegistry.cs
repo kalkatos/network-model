@@ -5,6 +5,8 @@ namespace FunctionsGame.NetworkModel
 	public class PlayerRegistry
 	{
 		public string PlayerId;
+		public string PlayerAlias;
+		public string Nickname;
 		public string Region;
 		public bool IsAuthenticated;
 		public string[] Devices;
