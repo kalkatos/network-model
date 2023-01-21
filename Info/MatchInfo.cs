@@ -1,9 +1,8 @@
 ﻿namespace Kalkatos.Network.Model
 {
-	public struct RoomInfo
+	public struct MatchInfo
 	{
-		public string RoomId;
+		public string MatchId;
 		public string[] Players;
-		public string MyAlias;
 	}
 }
