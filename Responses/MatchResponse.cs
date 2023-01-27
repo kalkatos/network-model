@@ -5,6 +5,6 @@
 		public string MatchId;
 		public string[] Players;
 		public bool IsError;
-		public string ErrorMessage;
+		public string Message;
 	}
 }

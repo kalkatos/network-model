@@ -1,6 +1,6 @@
 ﻿namespace Kalkatos.Network.Model
 {
-    public class LoginResponse
+	public class LoginResponse
     {
         public bool IsAuthenticated;
         public string PlayerId;
