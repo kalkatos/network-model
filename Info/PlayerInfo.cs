@@ -1,19 +1,20 @@
-﻿namespace Kalkatos.Network.Model
+﻿using System.Collections.Generic;
+
+namespace Kalkatos.Network.Model
 {
 	public class PlayerInfo
 	{
 		public string Alias;
 		public string Nickname;
-		public string[] CustomData;
+		public Dictionary<string ,string> CustomData;
 
 		public PlayerInfo Clone ()
 		{
-			string[] newCustomData = null;
+			Dictionary<string, string> newCustomData = new Dictionary<string, string>();
 			if (CustomData != null)
 			{
-				newCustomData = new string[CustomData.Length];
-				for (int i = 0; i < CustomData.Length; i++)
-					newCustomData[i] = CustomData[i];
+				foreach (var item in CustomData)
+					newCustomData.Add(item.Key, item.Value);
 			}
 			return new PlayerInfo
 			{
