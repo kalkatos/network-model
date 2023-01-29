@@ -3,6 +3,6 @@
 	public class MatchInfo
 	{
 		public string MatchId;
-		public string[] Players;
+		public PlayerInfo[] Players;
 	}
 }
