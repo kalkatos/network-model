@@ -1,9 +1,9 @@
 ﻿namespace Kalkatos.Network.Model
 {
-	public struct NetworkError
+	public class NetworkError : Response
 	{
 		public NetworkErrorTag Tag;
-		public string Message;
+		public new bool IsError = true;
 	}
 
 	public enum NetworkErrorTag

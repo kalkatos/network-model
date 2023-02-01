@@ -1,10 +1,8 @@
 ﻿namespace Kalkatos.Network.Model
 {
-	public class MatchResponse
+	public class MatchResponse : Response
 	{
 		public string MatchId;
 		public PlayerInfo[] Players;
-		public bool IsError;
-		public string Message;
 	}
 }
