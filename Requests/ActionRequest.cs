@@ -5,6 +5,6 @@
 		public string PlayerId;
 		public string MatchId;
 		public string ActionName;
-		public object Parameter;
+		public string SerializedParameter;
 	}
 }
