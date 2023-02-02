@@ -2,6 +2,7 @@
 {
 	public class ActionInfo
 	{
+		public string PlayerAlias;
 		public string ActionName;
 		public object Parameter;
 	}
