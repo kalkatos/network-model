@@ -7,5 +7,6 @@ namespace Kalkatos.Network.Model
 		public int Index;
 		public Dictionary<string, string> PublicProperties;
 		public Dictionary<string, string> PrivateProperties;
+		public int Hash;
 	}
 }
