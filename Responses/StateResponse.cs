@@ -2,6 +2,6 @@
 {
 	public class StateResponse : Response
 	{
-		public StateInfo[] StateInfos;
+		public StateInfo StateInfo;
 	}
 }

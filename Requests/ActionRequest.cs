@@ -5,10 +5,8 @@ namespace Kalkatos.Network.Model
 	public class ActionRequest
 	{
 		public string PlayerId;
-		public string PlayerAlias;
 		public string MatchId;
-		public Dictionary<string, string> Content;
-		public string ActionName;
-		public string SerializedParameter;
+		public Dictionary<string, string> PublicChanges;
+		public Dictionary<string, string> PrivateChanges;
 	}
 }
