@@ -4,6 +4,6 @@
 	{
 		public string PlayerId;
 		public string MatchId;
-		public int LastIndex;
+		public int LastHash;
 	}
 }
