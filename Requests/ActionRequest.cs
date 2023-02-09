@@ -6,7 +6,6 @@ namespace Kalkatos.Network.Model
 	{
 		public string PlayerId;
 		public string MatchId;
-		public Dictionary<string, string> PublicChanges;
-		public Dictionary<string, string> PrivateChanges;
+		public StateInfo Changes;
 	}
 }
