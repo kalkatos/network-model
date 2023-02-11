@@ -11,6 +11,12 @@ namespace Kalkatos.Network.Model
 		public Dictionary<string, string> PrivateProperties;
 		public int Hash;
 
+		public StateInfo ()
+		{
+			PublicProperties= new Dictionary<string, string> ();
+			PrivateProperties= new Dictionary<string, string> ();
+		}
+
 		public StateInfo Clone ()
 		{
 			StateInfo clone = new StateInfo ();
