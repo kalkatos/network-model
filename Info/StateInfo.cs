@@ -12,13 +12,13 @@ namespace Kalkatos.Network.Model
 
 		public StateInfo ()
 		{
-			PublicProperties= new Dictionary<string, string> ();
-			PrivateProperties= new Dictionary<string, string> ();
+			PublicProperties = new Dictionary<string, string>();
+			PrivateProperties = new Dictionary<string, string>();
 		}
 
 		public StateInfo Clone ()
 		{
-			StateInfo clone = new StateInfo ();
+			StateInfo clone = new StateInfo();
 			clone.PublicProperties = PublicProperties.ToDictionary(e => e.Key, e => e.Value);
 			clone.PrivateProperties = PrivateProperties.ToDictionary(e => e.Key, e => e.Value);
 			clone.Hash = Hash;
@@ -35,7 +35,7 @@ namespace Kalkatos.Network.Model
 			return PrivateProperties != null && PrivateProperties.Count > 0;
 		}
 
-		public bool HasPublicProperty (string key) 
+		public bool HasPublicProperty (string key)
 		{
 			return PublicProperties != null && PublicProperties.ContainsKey(key);
 		}
