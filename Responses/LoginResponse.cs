@@ -4,7 +4,6 @@
 	{
         public bool IsAuthenticated;
         public string PlayerId;
-        public string PlayerAlias;
-        public string SavedNickname;
+        public PlayerInfo MyInfo;
     }
 }
