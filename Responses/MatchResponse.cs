@@ -4,5 +4,6 @@
 	{
 		public string MatchId;
 		public PlayerInfo[] Players;
+		public bool IsOver;
 	}
 }
