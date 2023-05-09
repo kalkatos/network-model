@@ -3,5 +3,6 @@
 	public class GameDataRequest
 	{
 		public string GameId;
+		public string PlayerId;
 	}
 }
