@@ -3,6 +3,7 @@
     public class LeaderboardRequest
     {
         public string GameId;
+        public string Key;
         public string PageId;
     }
 }
