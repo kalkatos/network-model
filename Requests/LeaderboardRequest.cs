@@ -4,6 +4,7 @@
     {
         public string GameId;
         public string Key;
+        public string PlayerId;
         public string PageId;
     }
 }
