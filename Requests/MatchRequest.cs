@@ -6,5 +6,6 @@
 		public string MatchId;
 		public string GameId;
 		public string Region;
+		public string Alias;
 	}
 }
