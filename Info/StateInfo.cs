@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Kalkatos.Network.Model
 {
-	public class StateInfo
+    public class StateInfo
 	{
 		public Dictionary<string, string> PublicProperties;
 		public Dictionary<string, string> PrivateProperties;
