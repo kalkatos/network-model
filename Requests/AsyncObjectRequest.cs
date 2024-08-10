@@ -2,9 +2,9 @@
 {
     public class AsyncObjectRequest
 	{
-        public string Region;
+        public string Type;
         public string Id;
         public int Quantity = 1;
-        public string[] Filters;
+        public string Filter;
     }
 }

@@ -2,7 +2,7 @@
 {
     public class AddAsyncObjectRequest
     {
-        public string Region;
+        public string Type;
         public string PlayerId;
         public AsyncObjectInfo Info;
     }
