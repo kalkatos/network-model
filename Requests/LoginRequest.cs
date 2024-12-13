@@ -1,6 +1,6 @@
 ﻿namespace Kalkatos.Network.Model
 {
-	public struct LoginRequest
+	public class LoginRequest
 	{
 		public string Identifier;
 		public string GameId;

@@ -13,5 +13,8 @@
 		WrongParameters,
 		NotFound,
 		NotAvailable,
+		AlreadyStarted,
+		IsFull,
+		IsOver,
 	}
 }

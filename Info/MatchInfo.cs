@@ -3,6 +3,8 @@
 	public class MatchInfo
 	{
 		public string MatchId;
+		public string Alias;
 		public PlayerInfo[] Players;
-	}
+		public bool IsStarted;
+    }
 }

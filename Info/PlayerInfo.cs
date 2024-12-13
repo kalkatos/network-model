@@ -23,5 +23,30 @@ namespace Kalkatos.Network.Model
                 CustomData = newCustomData
             };
         }
+
+        public static bool operator == (PlayerInfo a, PlayerInfo b)
+        {
+            return a.Equals(b);
+        }
+
+        public static bool operator != (PlayerInfo a, PlayerInfo b)
+        {
+            return !a.Equals(b);
+        }
+
+        public override bool Equals (object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+
+            return Alias.Equals(((PlayerInfo)obj).Alias);
+        }
+
+        public override int GetHashCode ()
+        {
+            return Alias.GetHashCode();
+        }
     }
 }
