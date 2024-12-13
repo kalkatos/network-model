@@ -39,6 +39,11 @@ namespace Kalkatos.Network.Model
 			return PublicChanges != null && PublicChanges.ContainsKey(key);
 		}
 
+		public bool HasAnyChangeWithKey (string key)
+		{
+			return HasPublicChange(key) || HasPrivateChange(key);
+		}
+
 		public bool IsPublicChangeEqualsIfPresent (string key, params string[] values)
 		{
 			return !HasPublicChange(key) || (values != null && values.Contains(PublicChanges[key]));
@@ -46,7 +51,7 @@ namespace Kalkatos.Network.Model
 
 		public bool HasPrivateChange (string key)
 		{
-			return PrivateChanges != null && PrivateChanges.ContainsKey(key);
+            return PrivateChanges != null && PrivateChanges.ContainsKey(key);
 		}
 
 		public bool IsPrivateChangeEqualsIfPresent (string key, params string[] values)
