@@ -7,7 +7,7 @@ namespace Kalkatos.Network.Model
 		public string MatchId;
 		public string Alias;
 		public PlayerInfo[] Players;
-		public bool IsOver;
+		public bool IsEnded;
         public bool IsStarted;
     }
 }

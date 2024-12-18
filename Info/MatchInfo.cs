@@ -6,5 +6,6 @@
 		public string Alias;
 		public PlayerInfo[] Players;
 		public bool IsStarted;
+		public bool IsEnded;
     }
 }
