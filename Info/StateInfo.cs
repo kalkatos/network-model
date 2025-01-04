@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Kalkatos.Network.Model
 {
-    public class StateInfo
+	public class StateInfo
 	{
 		public bool IsMatchEnded;
 		public Dictionary<string, string> PublicProperties;

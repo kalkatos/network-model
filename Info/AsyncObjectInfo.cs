@@ -2,7 +2,7 @@
 
 namespace Kalkatos.Network.Model
 {
-    public class AsyncObjectInfo
+	public class AsyncObjectInfo
 	{
 		public string Id;
 		public string Author;

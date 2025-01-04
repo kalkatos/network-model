@@ -2,8 +2,8 @@
 {
 	public class LoginResponse : Response
 	{
-        public bool IsAuthenticated;
-        public string PlayerId;
-        public PlayerInfo MyInfo;
-    }
+		public bool IsAuthenticated;
+		public string PlayerId;
+		public PlayerInfo MyInfo;
+	}
 }

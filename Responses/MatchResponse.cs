@@ -8,6 +8,6 @@ namespace Kalkatos.Network.Model
 		public string Alias;
 		public PlayerInfo[] Players;
 		public bool IsEnded;
-        public bool IsStarted;
-    }
+		public bool IsStarted;
+	}
 }
