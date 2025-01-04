@@ -6,6 +6,6 @@
 		public string Email;
 		public string Picture;
 		public string UserId;
-		public string IdKey;
+		public string IdToken;
 	}
 }
