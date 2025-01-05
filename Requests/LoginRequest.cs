@@ -6,5 +6,6 @@
 		public string GameId;
 		public string Nickname;
 		public string Region;
+		public string IdToken;
 	}
 }
