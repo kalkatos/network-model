@@ -5,7 +5,7 @@
 		public string Identifier;
 		public string DeviceId;
 		public string GameId;
-		public string Nickname;
 		public string Region;
+		public bool MustAuthenticate;
 	}
 }
