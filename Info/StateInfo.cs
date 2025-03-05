@@ -7,6 +7,7 @@ namespace Kalkatos.Network.Model
 	public class StateInfo
 	{
 		public bool IsMatchEnded;
+		public Dictionary<string, string> DecorativeProperties;
 		public Dictionary<string, string> PublicProperties;
 		public Dictionary<string, string> PrivateProperties;
 		public int Hash;

@@ -1,4 +1,6 @@
-﻿namespace Kalkatos.Network.Model
+﻿using System.Collections.Generic;
+
+namespace Kalkatos.Network.Model
 {
 	public class MatchInfo
 	{
@@ -7,5 +9,6 @@
 		public PlayerInfo[] Players;
 		public bool IsStarted;
 		public bool IsEnded;
+		public Dictionary<string, string> CustomData;
 	}
 }

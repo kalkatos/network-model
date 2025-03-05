@@ -7,5 +7,6 @@
 		public string GameId;
 		public string Region;
 		public bool MustAuthenticate;
+		public string Version;
 	}
 }
