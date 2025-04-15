@@ -8,6 +8,16 @@ namespace Kalkatos.Network.Model
 		public string Nickname;
 		public Dictionary<string, string> CustomData;
 
+		public bool IsBot
+		{
+			get
+			{
+				if (string.IsNullOrEmpty(Alias))
+					return false;
+				return Alias[0] == 'X';
+			}
+		}
+
 		public PlayerInfo Clone ()
 		{
 			Dictionary<string, string> newCustomData = new Dictionary<string, string>();

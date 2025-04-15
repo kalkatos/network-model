@@ -10,5 +10,6 @@ namespace Kalkatos.Network.Model
 		public bool IsStarted;
 		public bool IsEnded;
 		public Dictionary<string, string> CustomData;
+		public StateInfo State;
 	}
 }
