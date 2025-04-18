@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Kalkatos.Network.Model
+﻿namespace Kalkatos.Network.Model
 {
 	public class ActionRequest
 	{
