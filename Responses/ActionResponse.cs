@@ -2,6 +2,5 @@
 {
 	public class ActionResponse : Response
 	{
-		public StateInfo AlteredState;
 	}
 }

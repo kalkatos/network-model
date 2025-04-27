@@ -9,6 +9,7 @@ namespace Kalkatos.Network.Model
 		public PlayerInfo[] Players;
 		public bool IsStarted;
 		public bool IsEnded;
+		public Dictionary<string, string> Settings;
 		public Dictionary<string, string> CustomData;
 		public StateInfo State;
 	}
