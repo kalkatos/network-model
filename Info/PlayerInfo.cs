@@ -34,23 +34,16 @@ namespace Kalkatos.Network.Model
 			};
 		}
 
-		public static bool operator == (PlayerInfo a, PlayerInfo b)
-		{
-			return a.Equals(b);
-		}
-
-		public static bool operator != (PlayerInfo a, PlayerInfo b)
-		{
-			return !a.Equals(b);
-		}
-
 		public override bool Equals (object obj)
 		{
-			if (obj == null || GetType() != obj.GetType())
-			{
+			if (base.Equals(obj))
+				return true;
+			if (ReferenceEquals(this, null))
 				return false;
-			}
-
+			if (ReferenceEquals(obj, null))
+				return false;
+			if (obj is not PlayerInfo)
+				return false;
 			return Alias.Equals(((PlayerInfo)obj).Alias);
 		}
 
