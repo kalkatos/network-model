@@ -52,6 +52,16 @@ namespace Kalkatos.Network.Model
 			return PrivateProperties != null && PrivateProperties.ContainsKey(key);
 		}
 
+		public bool TryGetPublicProperty (string key, out string value)
+		{
+			return PublicProperties.TryGetValue(key, out value);
+		}
+
+		public bool TryGetPrivateProperty (string key, out string value)
+		{
+			return PrivateProperties.TryGetValue(key, out value);
+		}
+
 		public bool IsPrivatePropertyEqualsIfPresent (string key, params string[] values)
 		{
 			return !HasPublicProperty(key) || (values != null && values.Contains(PrivateProperties[key]));
